@@ -1,0 +1,416 @@
+body{
+    background-color: gray;
+}
+
+.homepage{
+    width:100vw;
+    height: 100vh;
+    background: url(https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/netflixteaser.png);
+    margin: 20px; 
+    /* overflow: hidden; */
+    /* opacity: 1;  */
+    box-shadow: 10px 10px 5000px 200px black inset;
+}
+
+.nfLogo {
+    fill: #e50914;
+    line-height: normal;
+}
+#netflix-logo{
+    width: 150px;
+    height: 90px;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+
+.main{
+    padding-right: 200px;
+    width: 900px;
+    height: 500px;
+    /* border: 2px solid yellow; */
+    padding-left: 350px;
+    text-align: center;
+    /* float: right; */
+}
+
+#main-p1{
+    font-size: 90px;
+    font-weight: 1000;
+    color:white;
+}
+
+#main-p2{
+    font-size: 40px;
+    font-weight: 400;
+    color:white;
+    margin-top: -90px;
+} 
+
+#main-p3{
+    font-size:30px;
+    font-weight: 100px;
+    color: white;
+    margin-top: -30px;
+}
+#search{
+    width: 900px;
+    height: 80px;
+    display: flex;
+    /* border: 2px solid yellow; */
+    position: absolute;
+    top: 600px;
+    right: 220px;
+}
+
+#type1{
+    height: 80px;
+    width: 700px;
+    /* border: 2px solid red; */
+    /* position: absolute;
+    top: 600px;
+    right: 350px; */
+    
+} 
+
+#type2{
+    height:80px;
+    width: 200px;
+    background-color: red;
+    /* position: absolute; */
+    /* right: 0px;  */
+    color: white;
+    font-size: 30px;
+    /* font-weight: 800px;  */
+    text-align: center;
+}
+
+#type-p1{
+    position: absolute;
+    top: -10px;
+    right:15px; 
+    font-weight: 600px;
+}  
+input{
+    width: 700px;
+    height: 80px;
+    display: inline-block;
+    font-size: 30px;
+}
+/* textarea{
+    height: 80px;
+    width: 500px;
+    display: inline;
+} */
+
+#language{
+    position: relative;
+    left: 1200px;
+    bottom: 670px;
+    width: 120px;
+    height: 70px;
+    /* border-radius: px; */
+}
+
+select{
+    width: 100px;
+    height: 50px;
+    border-radius: 7px;
+}
+
+select:hover{
+    cursor: pointer;
+}
+option{
+    font-size: 20px;
+}
+
+#sign-in-button{
+    text-decoration: none;
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+#sign-in-button:hover{
+    background-color: rgba(240, 39, 39, 0.664);
+    cursor: pointer;
+}
+#sign-in{
+    position: relative;
+    left: 1360px;
+    bottom: 740px;
+    height: 70px;
+    width: 150px;
+}
+
+/* ------------- */
+
+.our-story-card{
+    
+}
+.subpages{
+    width: 100vw;
+    height: 600px;
+    /* border: 2px solid red; */
+    /* background-color: black;  */
+    /* position: absolute; */
+    background-color: black;
+    display: flex; 
+    /* margin: 20px; */
+
+}
+
+.subpages{
+    width: 100vw;
+    height: 600px;
+    /* border: 2px solid red; */
+    /* background-color: black;  */
+    /* position: absolute; */
+    background-color: black;
+    display: flex;
+    margin: 20px;
+}
+/* #page2{
+    border: 2px solid yellow;
+} */
+
+.our-story-card-1{
+      /* border: 2px solid yellow;   */
+     width: 650px;
+     height: 400px;
+     position: relative;
+     left: 850px; 
+     /* left: 500px; */
+     top: 110px;
+}
+
+.our-story-card-1-animation {
+    height: 255px;
+    /* border: 2px solid red; */
+    left:80px;
+    top: 50px;  
+    /* max-height: 54%;
+    max-width: 73%; */
+    /* position: absolute; */
+    position: relative; 
+    /* bottom: 255px; */
+    /* transform: translate(-50%,-50%); */
+    width: 450px;
+} 
+
+.our-story-card-1-img{
+    position: relative;
+    bottom: 310px;
+    right: 10px;
+}
+.story-card-1-heading{
+    /* border: 2px solid red; */
+    position: relative;
+    right: 500px;
+    height: 500px;
+    width: 600px;
+    top: 80px;
+}
+
+#our-story-card-1-p1{
+    color: white;
+    font-size: 80px;
+}
+
+#our-story-card-1-p2{
+    color: white;
+    font-size: 30px;
+    margin-top: -70px;
+}
+
+.our-story-card-2{
+    width: 650px;
+     height: auto;
+     position: relative;
+}
+.story-card-2-heading{
+    /* border: 2px solid red; */
+    position: relative;
+    left: 200px; 
+    height: 500px; 
+    width: 600px;
+    /* top: 80px; */
+}
+
+#our-story-card-2-p1{
+    color: white;
+    font-size: 80px;
+}
+
+#our-story-card-2-p2{
+    color: white;
+    font-size: 30px;
+    margin-top: -70px;
+}
+
+.our-story-card-3{
+    /* border: 2px solid red;    */
+    width: 650px;
+    height: 500px;
+    position: relative;
+    left: 820px;
+    top: 50px;
+    
+    
+}
+.our-story-card-3-img{
+    position: relative;
+    bottom: 250px;
+}
+
+.our-story-card-3-video{
+    width: 400px;
+    height: 300px;
+}
+
+.our-story-card-3-animation {
+    /* border: 2px solid yellow; */
+    position: relative;
+    width: 470px;
+    left: 100px;
+    top: 60px;
+}
+
+.story-card-3-heading{
+    position: relative;
+    right: 550px;
+    height: 500px;
+    width: 600px;
+    top: 80px;
+    color: white;
+}
+
+#our-story-card-3-p1{
+    font-size: 70px;
+    font-weight: 600px;
+}
+
+#our-story-card-3-p2{
+    font-size: 30px;
+    margin-top: -60px;
+}
+
+.our-story-card-4{
+    width: 650px;
+     height: auto;
+     position: relative;
+     /* display: flex; */
+}
+
+.story-card-4-heading{
+    /* border: 2px solid red; */
+    position: relative;
+    left: 200px; 
+    height: 500px; 
+    width: 600px;
+    color: white;
+    /* top: 80px; */
+}
+
+#our-story-card-4-p1{
+    font-size: 70px;
+    font-weight: 600px;
+}
+
+#our-story-card-4-p2{
+    font-size: 30px;
+    margin-top: -60px;
+}
+
+.our-story-card-video{
+    height: 255px;
+}
+.Ask{
+    width: 100vw;
+    height: 1100px;
+    border: 2px solid red;
+    /* background-color: black;  */
+    /* position: absolute; */
+    background-color: black;
+    
+    margin: 20px;
+}
+#frequent-questions{
+    /* border: 2px solid yellow; */
+    height: 100px;
+    width: 1000px;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 220px;
+    font-size: 65px;
+    font-weight: 1500px;
+}
+
+.questions{
+    height: 80px;
+    width: 1000px;
+    margin: 10px;
+    background-color: gray;
+    position: relative;
+    left: 240px;
+    color: white;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#email{
+    color: white;
+    height: 500px;
+    width: 1000px;
+    /* border: 2px solid red; */
+    position: relative;
+    top: 50px;
+    left: 20%;
+    font-size: 30px;
+}
+
+#search-2{
+    width: 900px;
+    height: 80px;
+    display: flex;
+    position: relative;
+    top: 20px;
+    /* border: 2px solid yellow; */
+    /* position: absolute; */
+    /* top: 600px; */
+    /* right: 410px; */
+}
+
+#type1-2{
+    height: 80px;
+    width: 700px;
+    /* border: 2px solid red; */
+    /* position: absolute;
+    top: 600px;
+    right: 350px; */
+    
+} 
+
+#type2-2{
+    height:80px;
+    width: 200px;
+    background-color: red;
+    /* position: absolute; */
+    /* right: 0px;  */
+    color: white;
+    font-size: 30px;
+    /* font-weight: 800px;  */
+    text-align: center;
+}
+
+
+
+ 
